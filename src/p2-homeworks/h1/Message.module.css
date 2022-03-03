@@ -1,3 +1,60 @@
 .message {
+    width: 200px;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    background: url("https://i1.7fon.org/thumb/c185713.jpg");
+    padding: 2px 4px;
+}
 
+.ava_block {
+    width: 25%;
+}
+
+.ava {
+    height: 45px;
+    border-radius: 50%;
+    margin-top: 65%;
+}
+
+.main {
+    background-color: white;
+    width: 75%;
+    margin: 9% 2% 3%;
+    border-top-left-radius: 0.75rem;
+    border-top-right-radius: 0.75rem;
+    border-bottom-right-radius: 0.75rem;
+    position: relative;
+}
+
+.name {
+    color: darkcyan;
+    font-size: 13px;
+    margin: 4px 12px 2px;
+}
+
+.text {
+    color: black;
+    font-size: 15px;
+    margin: 0 12px 0;
+}
+
+.time {
+    float: right;
+    font-size: 8px;
+    margin: 0 4.5% 0 0;
+}
+
+.svg_appendix {
+    overflow: hidden;
+    position: absolute;
+    left: -5.3%;
+    bottom: -1.8%;
+    width: 0.5625rem;
+    height: 1.125rem;
+    font-size: 1rem !important;
+}
+
+.svg-appendix .corner {
+    fill: rgb(223 240 207);
 }
