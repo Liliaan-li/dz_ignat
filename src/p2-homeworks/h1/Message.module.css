@@ -9,12 +9,14 @@
 
 .ava_block {
     width: 25%;
+    position: relative;
 }
 
 .ava {
+    position: absolute;
     height: 45px;
     border-radius: 50%;
-    margin-top: 65%;
+    bottom: 2%;
 }
 
 .main {
@@ -42,7 +44,7 @@
 .time {
     float: right;
     font-size: 8px;
-    margin: 0 4.5% 0 0;
+    margin: 1% 4.8% 2% 0;
 }
 
 .svg_appendix {
