@@ -1,3 +1,23 @@
-.someClass {
+.buttons {
+    width: 20%;
+    margin-left: 3%;
+    margin-top: 1%;
+    display: flex;
+    justify-content: space-around;
+}
 
+.row {
+    text-align: left;
+    width: 25%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.name {
+    width: 75px;
+    text-align: left;
+}
+
+.property {
+    text-align: left;
 }

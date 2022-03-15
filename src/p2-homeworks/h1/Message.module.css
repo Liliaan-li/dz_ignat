@@ -39,19 +39,23 @@
     color: black;
     font-size: 15px;
     margin: 0 12px 0;
+    min-width: 135px;
+    word-wrap: break-word;
 }
 
 .time {
     float: right;
     font-size: 8px;
     margin: 1% 4.8% 2% 0;
+    color: darkcyan;
 }
 
 .svg_appendix {
     overflow: hidden;
     position: absolute;
     left: -5.3%;
-    bottom: -1.8%;
+    display: flex;
+    align-items: flex-end;
     width: 0.5625rem;
     height: 1.125rem;
     font-size: 1rem !important;
