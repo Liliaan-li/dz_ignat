@@ -1,4 +1,7 @@
 .App {
     color: lavender;
-background: url("https://wide-w.com/wp-content/uploads/2018/10/zvezdnoe-nebo-planety.jpg");
+    background: url("https://wide-w.com/wp-content/uploads/2018/10/zvezdnoe-nebo-planety.jpg") no-repeat center bottom;
+    background-size: cover;
+    position: fixed;
+    inset: 0;
 }
