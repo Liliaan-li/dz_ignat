@@ -17,17 +17,22 @@ const GreetingContainer: React.FC<GreetingContainerPropsType> = ({users, addUser
     const [error, setError] = useState<string>('') // need to fix any
 
     const setNameCallback = (e: ChangeEvent<HTMLInputElement>) => { // need to fix any
-        setName(e.currentTarget.value)
-        setError("")
+
+        if(e.currentTarget.value.trim()){
+            setName(e.currentTarget.value.trim())
+            setError("")
+        } else{
+            setName("")
+            setError("Введите имя!")
+        }
+
         // need to fix
     }
     const addUser = () => {
 
         if(name){addUserCallback(name)
             alert(`Hello ${name} !`)
-            setError("")
-            setName("")
-        } else setError("Введите имя!")
+        }
 
         // need to fix
     }

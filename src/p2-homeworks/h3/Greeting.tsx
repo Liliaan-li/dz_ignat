@@ -30,7 +30,7 @@ const Greeting: React.FC<GreetingPropsType> = (
                 }
                 }}
             />
-            <SuperButton onClick={addUser}>add</SuperButton>
+            <SuperButton onClick={addUser} disabled={name===""}>add</SuperButton>
             <span>{totalUsers}</span>
         </div>
     )

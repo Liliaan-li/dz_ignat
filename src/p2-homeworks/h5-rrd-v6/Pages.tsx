@@ -6,8 +6,8 @@ import JuniorPlus from "./pages/JuniorPlus";
 import {Routes, Route, Navigate} from "react-router-dom";
 export const PATH = {
     PRE_JUNIOR: '/pre-junior',
-    JUNIOR: '/pre-junior',
-    JUNIOR_PLUS: '/pre-junior',
+    JUNIOR: '/junior',
+    JUNIOR_PLUS: '/junior+',
     // add paths
 }
 
