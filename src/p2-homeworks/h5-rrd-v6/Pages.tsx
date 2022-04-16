@@ -4,6 +4,7 @@ import PreJunior from "./pages/PreJunior";
 import Junior from "./pages/Junior";
 import JuniorPlus from "./pages/JuniorPlus";
 import {Routes, Route, Navigate} from "react-router-dom";
+
 export const PATH = {
     PRE_JUNIOR: '/pre-junior',
     JUNIOR: '/junior',

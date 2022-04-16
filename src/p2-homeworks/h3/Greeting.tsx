@@ -26,11 +26,11 @@ const Greeting: React.FC<GreetingPropsType> = (
                 className={inputClass}
                 onKeyPress={(e) => {
                     if (e.key === "Enter") {
-                    addUser()
-                }
+                        addUser()
+                    }
                 }}
             />
-            <SuperButton onClick={addUser} disabled={name===""}>add</SuperButton>
+            <SuperButton onClick={addUser} disabled={name === ""}>add</SuperButton>
             <span>{totalUsers}</span>
         </div>
     )
