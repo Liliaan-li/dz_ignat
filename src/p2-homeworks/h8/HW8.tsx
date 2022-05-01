@@ -2,7 +2,8 @@ import React, {useState} from 'react'
 import {homeWorkReducer} from './bll/homeWorkReducer'
 import SuperButton from '../h4/common/c2-SuperButton/SuperButton'
 import s from './H8.module.css'
-export type UserType ={
+
+export type UserType = {
     _id: number
     name: string
     age: number
@@ -17,6 +18,7 @@ const initialPeople: Array<UserType> = [
     {_id: 5, name: 'Ирина', age: 55},
 ]
 export type InitialPeopleType = typeof initialPeople
+
 function HW8() {
     const [people, setPeople] = useState<Array<UserType>>(initialPeople) // need to fix any
 
@@ -39,11 +41,11 @@ function HW8() {
 
             {/*should work (должно работать)*/}
             <div className={s.container}>{finalPeople}</div>
-
-            <div><SuperButton onClick={sortUp}>sort up</SuperButton></div>
-            <div><SuperButton onClick={sortDown}>sort down</SuperButton></div>
-            <div><SuperButton onClick={check}>check 18</SuperButton></div>
-
+            <div className={s.container + ' ' + s.flex}>
+                <div><SuperButton onClick={sortUp}>sort up</SuperButton></div>
+                <div><SuperButton onClick={sortDown}>sort down</SuperButton></div>
+                <div><SuperButton onClick={check}>check 18</SuperButton></div>
+            </div>
             <hr/>
             {/*для личного творчества, могу проверить*/}
             {/*<AlternativePeople/>*/}
